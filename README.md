@@ -29,4 +29,5 @@ when you launch bamazonManager.js you will be prompted with a selection menu
 user can choose to display current inventory, view items low in inventory, update current items, and add new items to inventory
 
 ***when updating a current item or adding a new one; use whole numbers for quantity and price, no decimals
-
+Video Demo of Working App
+https://www.youtube.com/watch?v=IPQ8tBgZr3g&feature=youtu.be
