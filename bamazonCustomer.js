@@ -34,7 +34,7 @@ var start = function(){
 	+    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$            
 	+    $$                                              $$
 	+    $$                WELCOME TO THE                $$
-	+    $$                 CONVINI-MART                 $$
+	+    $$                  SQL STORE                   $$
 	+    $$                                              $$
 	+    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   
 	+
@@ -58,13 +58,13 @@ var start = function(){
 					}
 					return choiceArray;
 				},
-				message: "PLEASE TPYE ID NUMBER TO PURCHASE PRODUCT"
+				message: "PLEASE TYPE ID NUMBER TO PURCHASE"
 			},
 
 			{
 				name: "amount",
 				type: "input",
-				message: "HOW MANY WOULD YOU LIKE TO BUY?"
+				message: "HOW MANY WOULD YOU LIKE TO PURCHASE?"
 			}
 
 		]).then(function(answer){
@@ -108,7 +108,7 @@ var start = function(){
 								}], function(err){
 									if(err) throw err;
 									console.log(" ");
-									console.log("THANK YOU FOR YOUR PURCHASE, PLEASE COME AGAIN SOON!");
+									console.log("THANK YOU FOR YOUR PURCHASE, COME AGAIN SOON!");
 									console.log("---------------------------------");
 									console.log("---------------------------------");
 
@@ -118,7 +118,7 @@ var start = function(){
 							//if stock is too low
 							else{
 								console.log(" ");
-								console.log("WE'RE SORRY, WE DO NOT HAVE THE REQUESTED AMOUNT IN STOCK. PLEASE COME BACK LATER.");
+								console.log("SORRY, WE DO NOT HAVE THE REQUESTED AMOUNT IN STOCK. PLEASE COME BACK LATER.");
 								console.log("---------------------------------");
 								console.log("---------------------------------");
 
@@ -128,7 +128,7 @@ var start = function(){
 						else if (answer.confirm === false){
 
 							console.log(" ");
-							console.log("QUIT WASTING MY TIME!");
+							console.log("STOP WASTING MY TIME!");
 							console.log("---------------------------------");
 							console.log("---------------------------------");
 

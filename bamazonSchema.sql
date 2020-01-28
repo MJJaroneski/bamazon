@@ -13,11 +13,11 @@ CREATE TABLE products(
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES
-('Soda', 'Food & Drinks', 1, 10),
-('Chips', 'Food & Drinks', 2, 20),
-('FairyTale Zine', 'Magazines & Entertainment', 5, 6),
-('Pop Princess EP', 'Magazines & Entertainment', 3, 3),
-('Cherry Cherry Boom Boom Chapstick', 'Health & Beauty', 1, 5),
-('Rose Glitter Deodorant', 'Health & Beauty', 6, 15);
+('Lemonade', 'Food & Drinks', 3, 15),
+('BBQ Chips', 'Food & Drinks', 2, 10),
+('Sudoku Master', 'Magazines & Entertainment', 5, 6),
+('Best Kpop of all time', 'Magazines & Entertainment', 3, 3),
+('Cool and Poppin Lip Gloss', 'Health & Beauty', 2, 7),
+('Cool Cucumber Mist', 'Health & Beauty', 7, 25);
 
 SELECT * FROM bamazon.products;

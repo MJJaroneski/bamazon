@@ -2,7 +2,7 @@
 Homework Assignment #10
 
 
-Welcome to the Bamazon App (renamed convini-mart within the app)
+Welcome to the Bamazon App (renamed sql store within the app)
 
 With this node.js application the user will be able to do two things; run the app as a customer or run the app as a manager.
 
